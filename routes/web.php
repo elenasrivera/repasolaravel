@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/','StudentController@index')->name('home');
+Route::fwt('/create','StudentController@create')->name('create');
